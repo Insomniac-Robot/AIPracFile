@@ -1,5 +1,4 @@
-a = int(input("enter number"))
-n1 = int( "%s" % a )
-n2 = int( "%s%s" % (a,a) )
-n3 = int( "%s%s%s" % (a,a,a) )
-print (n1+n2+n3)
+a = int(input("enter num-"))
+a2 = a**2
+a3 = a**3
+print(a+a2+a3)
